@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votre Projet - Nom du Groupe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #5e73ff;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header h2 {
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h3 {
+      color: #ff725e;
+    }
+    .bornes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .borne {
+      background: #f6f6f6;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .borne img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .impacts-odd {
+      background-color: #006400; /* Vert foncé */
+      color: white; /* Texte en blanc */
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .business-plan {
+      background-color: #003366; /* Bleu foncé */
+      color: white; /* Texte en blanc */
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Votre Projet</h1>
+    <h2>Un projet de l'équipe [Nom du Groupe] - [Nom du Collège]</h2>
+  </header>
+
+  <section>
+    <h3>Etape 0 - Charte de l'équipe</h3>
+    <p>xxx</p>
+    <p>xxx</p>
+  </section>
+
+  <section>
+    <h3>Etape 1 - Présentation de la problématique</h3>
+    <p>Le projet [Nom du projet] est conçu pour [expliquez brièvement l’objectif du projet]. Il a pour but de [précisez les objectifs principaux du projet, par exemple : développer des compétences spécifiques, encourager la collaboration, etc.].</p>
+  </section>
+  
+  <section>
+    <h3>Etape 2 - Imaginer la solution</h3>
+    <div class="Solution">
+      <div class="Solution">
+        <strong>[Bénéfice 1]</strong>
+        <p>xxx</p>
+      </div>
+      <div class="Solution">
+        <strong>[Bénéfice 2]</strong>
+        <p>xxx</p>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h3>Etape 3 - Prototyper la solution</h3>
+    <div class="Croquis">
+      <div class="Croquis">
+        <strong>[1/20]</strong>
+        <p>xxx</p>
+      </div>
+      <div class="Solution">
+        <strong>[1/5]</strong>
+        <p>xxx</p>
+      </div>
+    </div>
+    
+    <div class="impacts-odd">
+      <h4>Impacts ODD</h4>
+      <ul>
+        <li>xxx</li>
+        <li>xxx</li>
+      </ul>
+    </div>
+
+    <div class="business-plan">
+      <h4>Business-plan</h4>
+      <ul>
+        <li>xxx</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h3>Etape 4 - Share</h3>
+    <ul>
+      <li>xxx</li>
+    </ul>
+  </section>
+  
+  <footer>
+    <p>Projet réalisé au Collège [Nom du Collège] - [Nom du Groupe] © 2025</p>
+  </footer>
+</body>
+</html>
